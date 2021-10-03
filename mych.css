@@ -267,13 +267,19 @@ body {
     
 }
 
-#footer {
+
+
+#copyright {
+  
     position: absolute;
-    top: 86%;
-    left: 62%;
-    transform: translate(-86%, -62%);
+    top: 90%;
+    left: 52.5%;
+    transform: translate(-90%, -52.5%);
+    
     
 }
+
+
 
 
 
