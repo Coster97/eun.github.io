@@ -272,9 +272,9 @@ body {
 #copyright {
   
     position: absolute;
-    top: 90%;
-    left: 52.5%;
-    transform: translate(-90%, -52.5%);
+    top: 80%;
+    left: 50%;
+    transform: translate(-80%, -50%);
     
     
 }
