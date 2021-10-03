@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Costar97</title>
+        <link rel ="stylesheet" href ="mych.css"/>
+        
+
+    </head>
+    <body>
+
+        <script src ="myChJs/background.js"></script>
+        <div id = "즐겨찾기">
+            <a href="https://www.google.com/" target="_blank" id ="chrome"><img src ="즐겨찾기/chrome.jpg" width="60px"/></a>
+            <a href="https://developer.mozilla.org/ko/" target="_blank" id ="mdn"><img src ="즐겨찾기/mdn.jpg"width="60px"/></a>
+            <a href="https://nomadcoders.co/" target="_blank" id ="nomad"><img src ="즐겨찾기/nomad.jpg" width="60px"></a>
+        </div>
+
+        <div class ="logOut">
+            <form>
+                <button id ="logout" required>Lock</button>
+            </form>
+        </div>
+            
+        
+
+
+        <div class ="clock">
+            <h1></h1>
+            <script src="myChJs/clock.js"></script>
+
+        </div>
+
+
+        <div class ="geolocation">
+            <span></span>
+            <span></span>
+    
+        </div>
+
+        <div class ="login">
+            <form>
+                <input type="text" id="id" required placeholder="Name">
+                <input type="submit" id="submit" required value="Start">
+                
+                
+                
+            </form>
+        
+
+        </div>
+        <textarea id ="memo" placeholder=" memo here🖌">exit 기능 업데이트 중. 메모가능</textarea>
+            
+        
+        <div id ="welcome">
+            
+            <h1>For your better day</h1>
+            <h3>I'm your own planner</h3>
+            
+            
+        </div>
+       
+        <div class ="hidden">
+            
+            <form id ="sitebox">
+                <strong><ul id="list1">To Do</ul></strong>
+                <ul id="list2">Calendar</ul>
+                <ul id="list3">Diary</ul>
+                <ul id="list4">Memo</ul>
+            </form> 
+
+                
+            
+
+        
+
+        </div>
+        <div>
+        <form class ="todobox">
+            <input type="text" id ="todo" required placeholder="Write here your to-dos today!"/>
+        </form>
+        </div>
+        
+
+        <div class ="clickTodo">
+            <ul id ="todo-list">📍 List 📍<button id ="todoX">✘</button></ul>
+        </div>
+        <div class ="clickCalendar">
+            <span>Updating. See you soon</span>
+            
+
+        </div>
+        <div class ="clickDiary">
+            <span>Updating. See you soon</span>
+
+        </div>
+
+
+        <script src ="myChJs//geolocation.js"></script>
+        <script src ="myChJs/eventchange.js"></script>
+        <script src ="myChJs/login.js"></script>
+        <script src ="myChJs/todo.js"></script>
+        <script src ="myChJs/sitebox.js"></script>
+        <script src ='myChJs/calendar.js'></script>
+        <script src ="myChJs/geolocation.js"></script>
+        <script src ="myChJs/lock.js"></script>
+    </body>
+</html>

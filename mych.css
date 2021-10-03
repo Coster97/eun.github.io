@@ -1,0 +1,273 @@
+body {
+    position: relative;
+    margin: 0;
+    
+}
+
+.img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+    
+    
+}
+
+#즐겨찾기 {
+    display: none;
+
+}
+#chrome {
+    position: absolute;
+    top: 66%;
+    left: 43%;
+    transform: translate(-66%, -43%);
+    
+  
+
+}
+#mdn {
+    position: absolute;
+    top: 67.6%;
+    left: 58.7%;
+    transform: translate(-67.6%, -58.7%);
+   
+}
+#nomad {
+    position: absolute;
+    top: 67%;
+    left: 51%;
+    transform: translate(-67%, -51%);
+   
+
+}
+
+
+
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 74px;
+    text-align: center;
+   
+    
+    
+    
+    
+}
+
+.geolocation {
+    position: absolute;
+    top: 58%;
+    left: 51%;
+    transform: translate(-58%, -51%);
+    height: 30px;
+    width: 229px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+
+.login {
+    display: block;
+    position: absolute;
+    top: 65%;
+    left: 52.5%;
+    transform: translate(-65%, -52.5%);
+    opacity: 0.7;
+    
+
+    
+}
+
+.logOut {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 94%;
+    transform: translate(-10%,-94%);
+    
+}
+
+
+#welcome {
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    transform: translate(-9%, -9%);
+    color: cornsilk;
+    font-size: 30px;
+    opacity: 0.6;
+    
+
+}
+
+
+
+#submit {
+    margin-top: 10px;
+
+}
+
+
+#memo {
+    display: none;
+    background-color: rgb(229, 231, 93);
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    transform: translate(-65%, -23%);
+    height: 184px;
+    width: 230px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 0 solid;
+}
+
+
+#memo::placeholder {
+    font-weight: bold;
+    color: brown;
+
+}
+
+
+
+
+.hidden
+ {
+     display: none;
+ }
+
+ 
+#sitebox {
+    position: absolute;
+    top: 17%;
+    left: 3%;
+    transform: translate(-17%, -3%);
+    background: rgb(245, 245, 245);
+    opacity: 0.6;
+    height: 400px;
+    width: 225px;
+    text-align-last: auto;
+    
+}
+
+#list1, #list2, #list3, #list4{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    
+
+}
+
+#list1{
+    color: red;
+}
+
+
+.todobox {
+    position: absolute;
+    top: 80%;
+    left: 62%;
+    transform: translate(-80%, -62%);
+    
+}
+
+#todo {
+    display: none;
+    height: 50px;
+    width: 550px;
+    background-color: transparent;
+    border-top: 0.5 solid rgb(0, 0, 0);
+    border-left: 0 solid rgb(0, 0, 0);
+    border-right: 0 solid rgb(0, 0, 0);
+    border-bottom: 1 solid white;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+#todo::placeholder {
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    opacity: 0.7;
+}
+
+.clickTodo {
+    display: none;
+    background-color: #000000;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-20%, -15%);
+    height: 400px;
+    width: 300px;
+    text-align-last: left;
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+   
+    
+}
+
+#todoX {
+    position: fixed;
+    top: 9%;
+    left: 90%;
+    transform: translate(-15%, -90%);
+    width: 25px;
+    height: 27px;
+    color: rgb(119, 34, 145);
+
+}
+.clickCalendar {
+    display: none;
+    background-color: black;
+    position: absolute;
+    top: 32.2%;
+    left: 20.6%;
+    transform: translate(-32.2%, -20.6%);
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    
+   
+    
+}
+.clickDiary {
+    display: none;
+    background-color: black;
+    position: absolute;
+    top: 42%;
+    left: 24.7%;
+    transform: translate(-42%, -24.7%);
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    
+   
+    
+}
+
+
+
+
+ 
