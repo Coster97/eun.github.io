@@ -267,6 +267,14 @@ body {
     
 }
 
+#footer {
+    position: absolute;
+    top: 90%;
+    left: 62%;
+    transform: translate(-80%, -62%);
+    
+}
+
 
 
 
